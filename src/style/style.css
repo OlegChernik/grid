@@ -1,0 +1,325 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ([col] 1fr)[13];
+      grid-template-columns: repeat(13, [col] 1fr);
+  -ms-grid-rows: ([row] 1fr)[4];
+      grid-template-rows: repeat(4, [row] 1fr);
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 0.3rem;
+}
+
+.box {
+  min-height: 5rem;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.items1 {
+  background: url("../img/4_N64FtV_400x400.jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items1:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items2 {
+  background: url("../img/67707f034ca14d5fbc9b909a86a06a4c--beautiful-sunset-beautiful-places.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items2:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items3 {
+  background: url("../img/blue-morpho-350x150-matthiasfr-pixabay-crop.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items3:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items4 {
+  background: url("../img/E9YJOcmWQAczMrY.jpg") center/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items4:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items5 {
+  background: url("../img/man-walking-dog.jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+  grid-column-end: 10;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 5;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.items5:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  background: url("../img/Marcher-dans-la-nature.jpg") 0 0/cover no-repeat;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items6 {
+  background: url("../img/a73d6e4ac85c6a822841e449b24c78e1.jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 10;
+      grid-column-start: 10;
+  grid-column-end: 12;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items6:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items7 {
+  background: url("../img/images (6).jpg") center/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items7:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items8 {
+  background: url("../img/eyJidWNrZXQiOiJibG9nLWVjb3RyZWUiLCJrZXkiOiAiYmxvZy8wMDAxLzAxLzQzOTE1ZmVjNGU2ZDQzMGUxYWNkOGYxZTlkODdlMzU2MzJjZjkwODkuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6IDkwMCwiaGVpZ2h0IjowLCJmaXQiOiJjb3ZlciJ9fX0=.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items8:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items9 {
+  background: url("../img/gettyimages-168346757_web.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items9:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items10 {
+  background: url("../img/images (4).jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items10:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items11 {
+  background: url("../img/images (2).jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items11:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items12 {
+  background: url("../img/images (3).jpg") center/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items12:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items13 {
+  background: url("../img/images (1).jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items13:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items14 {
+  background: url("../img/images (5).jpg") center/cover no-repeat;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 5;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items14:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items15 {
+  background: url("../img/Beauty-of-nature-random-4884759-1280-800_nqwrrog.jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-column: 10 / 12;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 /5;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items15:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items16 {
+  background: url("../img/belle-forêt-tropicale-à-l-itinéraire-aménagé-pour-amateurs-de-la-nature-de-ka-d-ang-36703721.jpg") 0 0/cover no-repeat;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-column: 12 /14;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items16:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-filter: none;
+          filter: none;
+  z-index: 5;
+}
+
+.items17 {
+  background: url("../img/man-walking-dog.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items17:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items18 {
+  background: url("../img/Marcher-dans-la-nature.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items18:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.items19 {
+  background: url("../img/wed-blog-shutterstock_1703194387_low_nwm.jpg") 0 0/cover no-repeat;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.items19:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: none;
+          filter: none;
+}
+/*# sourceMappingURL=style.css.map */
